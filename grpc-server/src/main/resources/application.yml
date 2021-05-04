@@ -1,0 +1,10 @@
+server:
+  port: 8080
+grpc:
+  server:
+    port: 50051
+account:
+  gateway:
+    path: /account
+    baseUrl: http://localhost
+    port: 8889

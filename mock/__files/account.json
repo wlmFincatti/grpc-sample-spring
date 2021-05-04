@@ -1,0 +1,30 @@
+[
+  {
+    "idAccount": 1,
+    "agency": 1234,
+    "number": 154789,
+    "digit": 2,
+    "brand": "Another"
+  },
+  {
+    "idAccount": 2,
+    "agency": 1234,
+    "number": 154789,
+    "digit": 2,
+    "brand": "Another"
+  },
+  {
+    "idAccount": 3,
+    "agency": 1234,
+    "number": 154789,
+    "digit": 2,
+    "brand": "Another"
+  },
+  {
+    "idAccount": 4,
+    "agency": 1234,
+    "number": 154789,
+    "digit": 2,
+    "brand": "Another"
+  }
+]

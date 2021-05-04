@@ -1,0 +1,17 @@
+{
+  "request": {
+    "urlPathPattern": "/account/10",
+    "method": "GET"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 404,
+    "jsonBody": {
+      "message": "Account with id 10 not found ",
+      "statusCode": 404,
+      "error": "Not Found"
+    }
+  }
+}

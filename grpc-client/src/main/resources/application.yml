@@ -1,0 +1,7 @@
+server:
+  port: 8083
+grpc:
+  client:
+    accountservice:
+      negotiationType: PLAINTEXT
+      address: static://localhost:50051

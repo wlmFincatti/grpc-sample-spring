@@ -1,0 +1,19 @@
+{
+  "request": {
+    "urlPathPattern": "/account/[0-9]",
+    "method": "GET"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 200,
+    "jsonBody": {
+      "idAccount": 1,
+      "agency": 1234,
+      "number": 154789,
+      "digit": 2,
+      "brand": "Another"
+    }
+  }
+}
