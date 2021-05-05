@@ -17,7 +17,7 @@ public class AccountServerApplication {
     @Bean("longTimeout")
     public RestTemplate restTemplateLongTimeout() {
         return new RestTemplateBuilder()
-                .setReadTimeout(Duration.ofMillis(100000))
+                .setReadTimeout(Duration.ofMillis(100))
                 .build();
     }
 
