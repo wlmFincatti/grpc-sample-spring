@@ -9,11 +9,14 @@
     },
     "status": 200,
     "jsonBody": {
-      "idAccount": 1,
+      "idAccount": "{{request.path.[1]}}",
       "agency": 1234,
       "number": 154789,
       "digit": 2,
       "brand": "Another"
-    }
+    },
+    "transformers": [
+      "response-template"
+    ]
   }
 }
